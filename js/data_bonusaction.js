@@ -1,34 +1,33 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Combat à deux armes",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
-        reference: "PHB, pgs. 192,194-195.",
+        subtitle: "Attaquer avec une deuxième arme",
+        description: "Attaquer avec une deuxième arme",
+        reference: "PHB, pg. 195.",
         bullets: [
-            "Only usable if you take the <i>Attack</i> action and attack with a light melee weapon that you're holding in one hand.",
-            "Perform a single attack with a different light melee weapon that you're holding in the other hand.",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it."
+            "Uniquement utilisable si vous effectuez une action <b>Attaquer</b> avec une arme de mélée légère que vous tenez à une main.",
+            "Vous pouvez faire une attaque avec une autre arme de mélée légère que vous portez dans votre autre main. N'ajoutez pas votre bonus de caractéristique aux dégâts de cette attaque, à moins qu'il soit négatif",
+            "Si l'une ou l'autre de vos armes possède la propriété <i>lancer</i>, vous pouvez lancer l'arme au lieu de faire une attaque de mélée avec."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Lancer un sort",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
-        reference: "PHB, pg. 192.",
+        subtitle: "Durée d'incantation d'une action bonus",
+        description: "Lancer un sort avec une durée d'incantation d'une action bonus",
+        reference: "PHB, pg. 189,202.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Pour lancer un sort en action bonus, il ne faut pas avoir lancé un autre sort lors de votre action, à moins que ce sort ne soit un tour de magie dont la durée est d'une action.",
+            "Pour plus de détails merci de vous référer à l'action <i>Lancer un sort</i>."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Utiliser une aptitude",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Certains talents ou pouvoirs ",
+        description: "Vous pouvez utiliser certaines aptitudes de votre classe de personnage comme actions bonus.",
+        reference: "Voir la classe de votre personnage pour plus de détails.",
         bullets: [
 
         ]
